@@ -6,4 +6,4 @@ ENV CXXFLAGS "--param ggc-min-expand=1 --param ggc-min-heapsize=32768"
 RUN cd /home/panda && \
    git config --global user.name "hpces" && \
    git config --global user.email "hpces@aices.rwth-aachen.de" && \
-   MOOSE_UNIT=false make -j
+   MOOSE_UNITY=false make -j
